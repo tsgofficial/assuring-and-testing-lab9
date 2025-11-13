@@ -29,4 +29,10 @@ public class BinarySearchTest {
         BinarySearch binarySearch = new BinarySearch();
         assertEquals(-1, binarySearch.search(new int[] { 2, 4, 6, 8 }, 5));
     }
+
+    @Test
+    public void immediate_goLeft_once() {
+        BinarySearch binarySearch = new BinarySearch();
+        assertEquals(-1, binarySearch.search(new int[] { 1, 3, 5 }, 2));
+    }
 }

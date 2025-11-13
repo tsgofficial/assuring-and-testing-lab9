@@ -24,7 +24,7 @@ left = right + 1; // зөв нь left = mid + 1
 4. Definition overshadowing
 
 // L10 блокт дахин mid тодорхойлох
-{ int mid = mid + 1; left = mid; } // гаднах mid-ыг халхална
+{ int mid = left + 1; left = mid; } // гаднах mid-ыг халхална
 
 → логик эвдэрнэ, DU(L5→L10) эвдэгдэнэ.
 
