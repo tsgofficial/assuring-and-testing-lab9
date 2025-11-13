@@ -1,3 +1,8 @@
 - Төслийн нэр: demo
 - Зорилго: Жишээ BinarySearch ангиллын нэгж тест болон кодын хамрах хүрээг (JaCoCo) харуулах
 - Хэрэглэх технологи: Java 1.8, Maven, JUnit 4, JaCoCo
+- Control Flow Diagram src/screenshots дотор байрлана
+- Dataflow анализ src/files/dataflow_analysis.xlsx байрлана
+- Тестийн төлөвлөгөөг TESTPLAN.md file-аас харна уу
+- Тестийн үр дүнгүүд src/test/java/com/example/screenshots дотор байрлана
+- jacoco test coverage үр дүн src/screenshots дотор байрлана
